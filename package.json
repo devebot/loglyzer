@@ -1,0 +1,22 @@
+{
+  "name": "loglyzer",
+  "version": "0.1.0",
+  "description": "A simple logging message analyzer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tdd/*-test.js"
+  },
+  "author": "devebot",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "collections": "^5.1.2",
+    "debug": "^3.1.0",
+    "locks": "^0.2.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
