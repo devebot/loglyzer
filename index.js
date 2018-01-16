@@ -1,3 +1,10 @@
+'use strict';
+
+var DirectAggregator = require('./lib/direct-aggregator');
+
 module.exports = {
-	DirectAggregator: require('./lib/direct-aggregator')
+  accumulationAppender: require('./lib/accumulation-appender'),
+  getAggregator: function(kwargs) {
+    return new DirectAggregator(kwargs);
+  }
 };
